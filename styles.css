@@ -11,7 +11,7 @@ body {
 .hero-section {
   min-height: 80vh;
   background: linear-gradient(180deg, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.7)),
-    url("/images/clouds.png");
+    url("images/clouds.png");
   background-position: center;
   background-size: cover;
 }
