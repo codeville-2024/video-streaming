@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.hero-section {
+  min-height: 80vh;
+  background: linear-gradient(180deg, rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.7)),
+    url("/images/clouds.png");
+  background-position: center;
+  background-size: cover;
+}
+
+header .container {
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+header .logo {
+  width: 100%;
+}
+.logo img {
+  object-fit: contain;
+}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  height: 1080px;
+}
+h1 {
+  color: #cb5cff;
+  font-weight: bolder;
+  width: 597.2px;
+  padding: 82.91px;
+  margin: 28px;
+}
+#rat {
+  width: 125px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffbb54;
+}
+
+#search {
+  width: 22.22px;
+  height: 22.22px;
+}
+#sign {
+  width: 125px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffbb54;
+}
+.row {
+  margin: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+.column {
+  margin: 100px;
+}
+.fast {
+  padding: 20px;
+  color: #ffffff;
+}
+.cast {
+  color: #ffffff;
+}
+.low {
+  justify-content: space-between;
+}
+.content {
+  color: #ffffff;
+}
+.pie {
+  display: flex;
+  gap: 10px;
+}
+.go {
+  color: #cb5cff #ffbb54;
+  text-align: center;
+}
+.so {
+  color: #ffffff;
+  text-align: center;
+}
+.anime {
+  display: flex;
+  justify-content: space-evenly;
+}
+#class {
+  width: 50px;
+  height: 62px;
+}
+#table {
+  width: 185px;
+  height: 28px;
+}
+#bed {
+  width: 111.89px;
+  height: 34.89px;
+}
+#spoon {
+  width: 236.09px;
+  height: 44px;
+}
+#chair {
+  width: 101px;
+  height: 80px;
+}
+.index {
+  color: #00ff94;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000px;
+}
+.watch {
+  color: white;
+  text-align: center;
+}
+.some {
+  text-align: center;
+}
+.html {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.pen {
+  color: #ffffff;
+  text-align: end;
+}
+.book {
+  color: #ffffff;
+}
+
+#line {
+  border-bottom: 1px solid gray;
+  padding: 22px;
+}
+#starter-parent {
+  width: 400px;
+  height: 650px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.starter-title {
+  background-color: #ffbb54;
+  text-align: center;
+  padding: 20px;
+}
+#starter-list {
+  border-radius: 10px;
+  padding: 0 75px 0 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  row-gap: 18px;
+}
+.cover {
+  margin: 50px;
+  background-color: #ffbb54;
+}
+
+#starter-list div {
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+}
+#line {
+  border-bottom: 1px solid gray;
+  margin: 15px 0 31px 0;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+#lap {
+  border-radius: 25px;
+  background-color: #ffbb54;
+  width: 100px;
+  height: 50px;
+}
+#boss {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 50px;
+}
+.line {
+  border-bottom: 1px solid gray;
+  padding: 50px;
+  margin: 15px 0 15px 0;
+}
+.fan {
+  padding: 100px;
+}
+.cat {
+  color: #ffffff;
+  list-style: none;
+  padding: 100px;
+}
+.can {
+  display: flex;
+}
+#paper {
+  color: #ffffff;
+  margin: 100px;
+}
+.film {
+  color: #ffffff;
+  list-style: none;
+  padding: 100px;
+}
+.cloud {
+  display: flex;
+  justify-content: space-between;
+}
+.case {
+  display: flex;
+  justify-content: end;
+  margin-right: 250px;
+}
+#room {
+  color: #ffffff;
+  justify-content: baseline;
+  margin-top: 50px;
+}
+.footer {
+  margin-left: 50px;
+  display: flex;
+  gap: 10px;
+}
+.music {
+  font-size: 50px;
+  font-weight: 1000px;
+}
+.tale {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+  padding: 68px;
+}
+.en {
+  display: flex;
+  justify-content: space-between;
+}
+#list {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  padding: 100px;
+}
+.file {
+  text-align: center;
+  color: #ffffff;
+}
+#set {
+  display: flex;
+  justify-content: space-evenly;
+}
+#art {
+  display: flex;
+  color: #ffffff;
+}
+.act {
+  color: #ffffff;
+  list-style: none;
+}
+.pay {
+  display: flex;
+  justify-content: space-evenly;
+}
+#cop {
+  color: #c2c2c2;
+  text-align: center;
+}
+#wire {
+  color: #ffffff;
+  margin: 50px;
+}
+#project {
+  display: flex;
+  justify-content: space-evenly;
+}
+#cap {
+  padding: 50px;
+}
+#videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px 30px;
+  background-color: black;
+}
+#moviecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black {
+  background-color: red;
+  width: 181px;
+  height: 50px;
+}
+.white {
+  background-color: #ffffff;
+  width: 120px;
+  height: 50px;
+}
+.blue {
+  background-color: #ffffff;
+  width: 191px;
+  height: 50px;
+}
+#site {
+  margin: 20px;
+}
+.op {
+  color: white;
+}
+
+#movie-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
