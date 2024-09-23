@@ -4,7 +4,7 @@
 
 This is a video streaming website where you can stream your favourite movies and tv shows.
 
-Here is a live link: [https://codeville-2024.github.io/video-streaming/]
+Here is a live link: https://codeville-2024.github.io/video-streaming/
 
 ## Technologies
 * HTML
